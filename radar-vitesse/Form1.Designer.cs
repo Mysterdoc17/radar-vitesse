@@ -28,11 +28,13 @@ partial class Form1
     /// </summary>
     public void InitializeComponent()
     {
+        this.SuspendLayout();
         this.components = new System.ComponentModel.Container();
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "Form1";
-        this.label1 = new System.Windows.Forms.Label();
+        this.Text = "Radar de Vitesse";
+        this.label_vitesse.Text = "Vitesse";
+        this.textBox1.Text = "Saisir une vitesse";
     }
 
     #endregion

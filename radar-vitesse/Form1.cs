@@ -6,17 +6,40 @@ public partial class Form1 : Form
     {
         InitializeComponent();
     }
-    public void label1(object sender, EventArgs e)
+    
+    private void label_vitesse()
     {
-        Label label1 = new Label();
+        Label label1 = new Label();;
         label1.Text = "Vitesse";
         Controls.Add(label1);
     }
 
-    public void textBox1(object sender, EventArgs e)
+    // definition de la textbox pour la vitesse
+    private void textBox_vitesse(object sender, EventArgs e)
     {
         TextBox textBox1 = new TextBox();
         textBox1.Text = "Saisir une vitesse";
         Controls.Add(textBox1);
+    }
+
+    // definition du bouton de validation
+    private void valider(object sender, EventArgs e)
+    {
+        Button button1 = new Button();
+        button1.Text = "Valider";
+        Controls.Add(button1);
+    }
+    
+    // definition du bouton quitter
+    private void quitter(object sender, EventArgs e)
+    {
+        Button button2 = new Button();
+        button2.Text = "Quitter";
+        Controls.Add(button2);
+    }
+
+    public getLabelVitesse()
+    {
+        label_vitesse();
     }
 }
