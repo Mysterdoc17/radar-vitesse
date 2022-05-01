@@ -31,10 +31,8 @@ partial class Form1
         this.SuspendLayout();
         this.components = new System.ComponentModel.Container();
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
         this.Text = "Radar de Vitesse";
-        this.label_vitesse.Text = "Vitesse";
-        this.textBox1.Text = "Saisir une vitesse";
+        this.ResumeLayout(true);
     }
 
     #endregion
