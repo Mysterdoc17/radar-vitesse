@@ -9,13 +9,13 @@ namespace radarVitesse
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
-            button.Text = "Entrez une vitesse";
+            // Création d'un titre pour la fenêtre de saisie
+            this.Text = "Saisie de la vitesse";
         }
 
         private void openFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -25,7 +25,7 @@ namespace radarVitesse
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
