@@ -32,6 +32,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.image1 = new System.Windows.Forms.OpenFileDialog();
+            this.image2 = new System.Windows.Forms.OpenFileDialog();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -67,11 +69,25 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ImageLocation = "C:\\Users\\Jérémie\\Downloads\\fond-ecran-ipad-270215-19.jpg";
             this.pictureBox1.Location = new System.Drawing.Point(915, 257);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 62);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            // 
+            // image1
+            // 
+            this.image1.FileName = "C:\\Users\\Jérémie\\Downloads\\topologie-1024x576.jpg";
+            this.image1.Filter = "Fichiers image (*.jpg)|*.jpg";
+            this.image1.Title = "Sélectionnez une image";
+            // 
+            // image2
+            // 
+            this.image2.FileName = "C:\\Users\\Jérémie\\Downloads\\fond-ecran-ipad-270215-19.jpg";
+            this.image2.Filter = "Fichiers image (*.jpg)|*.jpg";
+            this.image2.Title = "Sélectionnez une image";
+            this.image2.FileOk += new System.ComponentModel.CancelEventHandler(this.image2_FileOk);
             // 
             // label1
             // 
@@ -105,7 +121,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(52, 257);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 253);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(125, 62);
             this.pictureBox2.TabIndex = 10;
@@ -115,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1114, 605);
+            this.ClientSize = new System.Drawing.Size(1277, 605);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -125,7 +141,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "radar de vitesse";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -143,5 +159,7 @@
         private Label label2;
         private Label label3;
         private PictureBox pictureBox2;
+        private OpenFileDialog image1;
+        private OpenFileDialog image2;
     }
 }

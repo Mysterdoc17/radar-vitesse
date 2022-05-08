@@ -20,6 +20,7 @@ namespace radarVitesse
 
         private void label1_Click(object sender, EventArgs e)
         {
+            // nommer le label
 
         }
 
@@ -34,6 +35,11 @@ namespace radarVitesse
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void image2_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
         }
