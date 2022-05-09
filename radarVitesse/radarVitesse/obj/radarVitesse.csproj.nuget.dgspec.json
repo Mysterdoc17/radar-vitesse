@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jérémie\\source\\repos\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj": {}
+    "C:\\Users\\baudonj.FENELONSIO\\Documents\\GitHub\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jérémie\\source\\repos\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj": {
+    "C:\\Users\\baudonj.FENELONSIO\\Documents\\GitHub\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jérémie\\source\\repos\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj",
+        "projectUniqueName": "C:\\Users\\baudonj.FENELONSIO\\Documents\\GitHub\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj",
         "projectName": "radarVitesse",
-        "projectPath": "C:\\Users\\Jérémie\\source\\repos\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj",
-        "packagesPath": "C:\\Users\\Jérémie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jérémie\\source\\repos\\radar-vitesse\\radarVitesse\\radarVitesse\\obj\\",
+        "projectPath": "C:\\Users\\baudonj.FENELONSIO\\Documents\\GitHub\\radar-vitesse\\radarVitesse\\radarVitesse\\radarVitesse.csproj",
+        "packagesPath": "C:\\Users\\baudonj.FENELONSIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baudonj.FENELONSIO\\Documents\\GitHub\\radar-vitesse\\radarVitesse\\radarVitesse\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jérémie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\baudonj.FENELONSIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
