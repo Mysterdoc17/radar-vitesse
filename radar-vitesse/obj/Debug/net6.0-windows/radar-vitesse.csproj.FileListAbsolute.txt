@@ -1,0 +1,15 @@
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\bin\Debug\net6.0-windows\radar-vitesse.exe
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\bin\Debug\net6.0-windows\radar-vitesse.deps.json
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\bin\Debug\net6.0-windows\radar-vitesse.runtimeconfig.json
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\bin\Debug\net6.0-windows\radar-vitesse.dll
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\bin\Debug\net6.0-windows\radar-vitesse.pdb
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.csproj.AssemblyReference.cache
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.AssemblyInfoInputs.cache
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.AssemblyInfo.cs
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.csproj.CoreCompileInputs.cache
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.dll
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\ref\radar-vitesse.dll
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.pdb
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\radar-vitesse.genruntimeconfig.cache
+C:\Users\Jérémie\source\repos\radar-vitesse\radar-vitesse\obj\Debug\net6.0-windows\refint\radar-vitesse.dll

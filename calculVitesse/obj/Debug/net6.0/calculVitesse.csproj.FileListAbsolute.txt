@@ -1,0 +1,15 @@
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.csproj.AssemblyReference.cache
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.AssemblyInfoInputs.cache
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.AssemblyInfo.cs
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.csproj.CoreCompileInputs.cache
+C:\Users\Jérémie\source\repos\calculVitesse\bin\Debug\net6.0\calculVitesse.exe
+C:\Users\Jérémie\source\repos\calculVitesse\bin\Debug\net6.0\calculVitesse.deps.json
+C:\Users\Jérémie\source\repos\calculVitesse\bin\Debug\net6.0\calculVitesse.runtimeconfig.json
+C:\Users\Jérémie\source\repos\calculVitesse\bin\Debug\net6.0\calculVitesse.dll
+C:\Users\Jérémie\source\repos\calculVitesse\bin\Debug\net6.0\calculVitesse.pdb
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.dll
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\refint\calculVitesse.dll
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.pdb
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\calculVitesse.genruntimeconfig.cache
+C:\Users\Jérémie\source\repos\calculVitesse\obj\Debug\net6.0\ref\calculVitesse.dll
