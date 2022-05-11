@@ -1,5 +1,3 @@
-
-
 namespace radarVitesse
 {
     class CalculVitesse {
@@ -23,7 +21,6 @@ namespace radarVitesse
                 vitesseKmH = vitesse * 3.6;
                 */
                 
-                List<string> fileNames = new List<string> { "Input1.png", "Input2.png" };
                 
                 // récupération des données de temps avec les saisies utilisateur
                 int temps_depart_saisie = temps_depart;

@@ -66,28 +66,13 @@
             this.textBox2.Size = new System.Drawing.Size(125, 27);
             this.textBox2.TabIndex = 4;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
+            //
             // pictureBox1
-            // 
-            this.pictureBox1.ImageLocation = "C:\\Users\\Jérémie\\Downloads\\fond-ecran-ipad-270215-19.jpg";
-            this.pictureBox1.Location = new System.Drawing.Point(915, 257);
+            //
+            this.pictureBox1.Location = new System.Drawing.Point(930, 260);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 62);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
-            // image1
-            // 
-            this.image1.FileName = "C:\\Users\\Jérémie\\Downloads\\topologie-1024x576.jpg";
-            this.image1.Filter = "Fichiers image (*.jpg)|*.jpg";
-            this.image1.Title = "Sélectionnez une image";
-            // 
-            // image2
-            // 
-            this.image2.FileName = "C:\\Users\\Jérémie\\Downloads\\fond-ecran-ipad-270215-19.jpg";
-            this.image2.Filter = "Fichiers image (*.jpg)|*.jpg";
-            this.image2.Title = "Sélectionnez une image";
-            this.image2.FileOk += new System.ComponentModel.CancelEventHandler(this.image2_FileOk);
+            
             // 
             // label1
             // 
@@ -121,7 +106,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(12, 253);
+            this.pictureBox2.Location = new System.Drawing.Point(113, 257);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(125, 62);
             this.pictureBox2.TabIndex = 10;

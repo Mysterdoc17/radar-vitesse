@@ -9,13 +9,25 @@ namespace radarVitesse
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Création d'un titre pour la fenêtre de saisie
-            this.Text = "Saisie de la vitesse";
+            // affichage d'une confirmation de la prise en compte des données
+            MessageBox.Show("bien pris en compte");
+
+            // création d'une instance de la classe connectionDB
+            connectionDB connection = new connectionDB("localhost", "radarVitesse", "root", "");
+
+            // envoi des données à la base de données
+            string query = "INSERT INTO radarVitesse (id, vitesse, date) VALUES (NULL, " + textBox1.Text + ", NOW())";
+            
         }
 
         private void openFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            
+            // instanciation de la classe de lecture du fichier
+            LecteurFichier lf = new LecteurFichier("", "");
+            // lecture du fichier
+            lf.LireFichier();
+            // affichage du contenu du fichier
+            textBox1.Text = lf.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -40,6 +52,15 @@ namespace radarVitesse
         }
 
         private void image2_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            // instanciation de la classe de lecture du fichier
+            LecteurFichier lf = new LecteurFichier("", "");
+            lf.LireFichier();
+            // affichage du contenu du fichier
+            textBox2.Text = lf.ToString();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
