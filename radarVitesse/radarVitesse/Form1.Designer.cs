@@ -54,30 +54,31 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(493, 295);
+            this.textBox1.Location = new System.Drawing.Point(607, 295);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(125, 27);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(493, 257);
+            this.textBox2.Location = new System.Drawing.Point(607, 257);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(125, 27);
             this.textBox2.TabIndex = 4;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            //
+            // 
             // pictureBox1
-            //
+            // 
             this.pictureBox1.Location = new System.Drawing.Point(930, 260);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 62);
-            
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(330, 295);
+            this.label1.Location = new System.Drawing.Point(412, 295);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 20);
             this.label1.TabIndex = 6;
@@ -87,7 +88,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(330, 260);
+            this.label2.Location = new System.Drawing.Point(412, 264);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 20);
             this.label2.TabIndex = 8;
@@ -111,6 +112,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(125, 62);
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
             // Form1
             // 

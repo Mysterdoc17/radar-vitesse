@@ -62,7 +62,19 @@ namespace radarVitesse
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            // instanciation de la classe de lecture du fichier
+            LecteurFichier lf = new LecteurFichier("", "");
+            lf.LireFichier();
+            // affichage du contenu du fichier
+            textBox2.Text = lf.ToString();
+        }
 
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            LecteurFichier lf1 = new LecteurFichier("", "");
+            lf1.LireFichier();
+            // affichage du contenu du fichier
+            textBox2.Text = lf1.ToString();
         }
     }
 }
